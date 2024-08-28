@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halalan Toyiban</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+<div class="container">
+
+    <header class="header">
+
+        <div class="hero">
+            <h2 class="heading">Halalan Toyiban</h2>
+            <p class="sub-heading">Haji Merchandise</p>
+        </div>
+
+        <div class="fitur f1">
+            <h4 class="price">IDR 100K</h4>
+            <p class="item">Al-Quran</p>
+        </div>
+        <div class="fitur f2">
+            <h4 class="price">IDR 120K</h4>
+            <p class="item">Sajadah</p>
+        </div>
+
+    </header>
+
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="judul">
+            <h1>Halalan Toyiban</h1>
+        </div>
+
+        <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="services">
+        <div class="service">
+            <div class="icon">
+                <img src="../img/Fast.svg">
+            </div>
+            <h3>Fast Responses</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam repellat saepe, facilis explicabo rem cum.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">
+                <img src="../img/seluruh.svg">
+            </div>
+            <h3>Di Seluruh Daerah</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nisi recusandae magnam quo cum dignissimos quis amet omnis.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">
+                <img src="../img/trust.svg">
+            </div>
+            <h3>100% Amanah</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, dignissimos..</p>
+        </div>
+    </section>
+
+    <section class="galery">
+        <h2>Galery Haji</h2>
+        <img src="../img/kaaba2.jpg">
+        <img src="../img/kaaba3.jpg">
+        <img src="../img/kaaba4.jpg">
+        <img src="../img/kaaba5.jpg">
+        <img src="../img/kaaba6.jpg">
+        <img src="../img/kaaba7.jpg">
+        <img src="../img/kaaba8.jpg">
+        <img src="../img/kaaba9.jpg">
+        <img src="../img/kaaba10.jpg">
+    </section>
+
+</div>
+
+    <footer>
+        <h2>Contact & Email</h2>
+        <ul>
+            <li><a href="#">Contact: 0895805328181</a></li>
+            <li><a href="#">Email: bboys1886@gmail.com</a></li>
+            <li><a href="#">Instagram: im_firaz</a></li>
+        </ul>
+    </footer>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function () {
+    nav.classList.toggle('slide');
+})
+</script>
+
+</body>
+</html>
